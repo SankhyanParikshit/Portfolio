@@ -1,0 +1,106 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/style/projectlist.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.projectlist_project__zQTAf {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  background-color: #0f0f0f;
+  color: #e3e3db;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  overflow: hidden;
+}
+
+.projectlist_projectImages__SKaJz {
+  width: max-content;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.projectlist_img__eT_cA {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  cursor: pointer;
+  will-change: transform;
+  transform-origin: center center;
+}
+
+.projectlist_img__eT_cA img {
+  border-radius: 0.5rem;
+}
+
+.projectlist_projectNames__mJ_bE {
+  width: 100%;
+  height: 8rem;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  overflow: hidden;
+}
+
+.projectlist_name__g89Xz {
+  position: relative;
+}
+
+.projectlist_name__g89Xz h1 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 8rem;
+  font-weight: 900;
+  letter-spacing: -0.5rem;
+  line-height: 1;
+  color: #f93535;
+  user-select: none;
+  transform: translateY(100%);
+}
+
+.projectlist_name__g89Xz.projectlist_default__Sfvjo h1 {
+  color: #e3e3db;
+  transform: translateY(-100%);
+}
+
+.projectlist_name__g89Xz h1 .projectlist_letter__RwNU4 {
+  position: relative;
+  display: inline-block;
+  transform: translateY(0%);
+  will-change: transform;
+}
+
+@media (max-width: 900px) {
+  .projectlist_project__zQTAf {
+    flex-direction: column-reverse;
+  }
+
+  .projectlist_projectImages__SKaJz {
+    flex-wrap: wrap;
+    max-width: 90%;
+    justify-content: center;
+  }
+
+  .projectlist_img__eT_cA {
+    width: 100px;
+    height: 100px;
+    padding: 2.5px;
+  }
+
+  .projectlist_name__g89Xz h1 {
+    font-size: 3rem;
+    letter-spacing: 0;
+  }
+
+  .projectlist_projectNames__mJ_bE {
+    height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
